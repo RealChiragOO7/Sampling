@@ -26,11 +26,11 @@ SMOTE (Synthetic Minority Over-sampling Technique)it is used to balance this dat
 - Cluster Sampling
 
 ## Formula for sample size
-- For Simple Random Sampling: Sample size is calculated as: `n=Z^2p(1-p)/E^2` ; where n=sample size, p=standard deviation , Z= z-score , E= margin of error
+- For Simple Random Sampling: Sample size is calculated as: `n=Z^2p(1-p)/(E^2)` ; where n=sample size, p=standard deviation , Z= z-score , E= margin of error
 
 - For Stratified Sampling: Sample size is calculated as: `n=(Z^2 * p * (1 - p)) / (E/S)^2)` ; where n=sample size, p=standard deviation , Z= z-score , E= margin of error ,S= number of strata
 
-- For Cluster Sampling: Sample size is calculated as: `n=(Z^2 * p * (1 - p)) / (E / C)^2)` ; where n=sample size, p=standard deviation , Z= z-score , E= margin of error, C is avg size of cluster
+- For Cluster Sampling: Sample size is calculated as: `n=(Z^2 * p * (1 - p)) / (E/C)^2)` ; where n=sample size, p=standard deviation , Z= z-score , E= margin of error, C is avg size of cluster
 
 ## Models used
 - Decision Tree
